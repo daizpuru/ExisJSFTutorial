@@ -15,4 +15,9 @@
 	 		<value></value>
 		</managed-property>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>TaskListBean</managed-bean-name>
+		<managed-bean-class>bean.TaskListBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
 </faces-config>
